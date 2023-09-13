@@ -4,8 +4,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '33f69c60-23fa-4188-84ae-c6c4996c31e3
-p, li { white-space: pre-wrap; }';
+let userID = '514ebfba-7b04-4ae7-abbe-219593f8a604';
 
 const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
@@ -778,4 +777,4 @@ ${vlessTlsLink}
 ---------------------------------------------------------------
 更多教程，请关注：小御坂的破站
 `;
-}
+    }
